@@ -1,0 +1,269 @@
+{
+  "options": [
+    {
+      "key": "broadcast-rcon-to-ops",
+      "type": "boolean",
+      "default": "true",
+      "description": "Send RCON commands to all OPS, set to false if you expect command blocks or other players to issue base-game commands in chat.",
+      "name": "Broadcast RCON"
+    },
+    {
+      "key": "view-distance",
+      "type": "integer",
+      "default": "10",
+      "description": "Sets the radius of terrain updates sent to players",
+      "min": "3",
+      "max": "20",
+      "name": "View Distance"
+    },
+    {
+      "key": "enable-jmx-monitoring",
+      "type": "boolean",
+      "default": "false",
+      "description": "Java Management Extensions. Its a protocol that gives you various levels of access into the running application. You can have it alert you of things like TPS spikes, or terrain generation errors.",
+      "name": "Enable JMX monitoring"
+    },
+    {
+      "key": "server-ip",
+      "type": "string",
+      "default": "",
+      "description": "Sets what ip the server will listen on.",
+      "name": "IP"
+    },
+    {
+      "key": "resource-pack-prompt",
+      "type": "string",
+      "default": "",
+      "description": "Message that appears on the prompt to download a resource pack.",
+      "name": "Resource pack"
+    },
+    {
+      "key": "rcon.port",
+      "type": "integer",
+      "default": "25575",
+      "description": "RCON port for admins.",
+      "name": "RCON Port"
+    },
+
+
+
+
+
+
+    {
+      "key": "online-mode",
+      "type": "boolean",
+      "default": "true",
+      "description": "Check players against official login servers (recommended)",
+      "name": "Online Mode"
+    },
+
+    {
+      "key": "spawn-monsters",
+      "type": "boolean",
+      "default": "true",
+      "description": "Enable monster spawning",
+      "name": "Monsters"
+    },
+
+    {
+      "key": "spawn-animals",
+      "type": "boolean",
+      "default": "true",
+      "description": "Enable spawning of friendly mobs",
+      "name": "Animals"
+    },
+
+    {
+      "key": "spawn-npcs",
+      "type": "boolean",
+      "default": "true",
+      "description": "Whether to spawn NPCs",
+      "name": "Spawn NPCs"
+    },
+
+    {
+      "key": "max-players",
+      "type": "integer",
+      "default": "20",
+      "min": "0",
+      "max": "999",
+      "description": "Maximum number of players allowed to connect",
+      "name": "Max Players"
+    },
+
+    {
+      "key": "pvp",
+      "type": "boolean",
+      "default": "true",
+      "description": "Enable players to deal other players damage",
+      "name": "PvP"
+    },
+
+    {
+      "key": "white-list",
+      "type": "boolean",
+      "default": "false",
+      "description": "Whitelist mode allows only specified players to log on. Use whitelist add <username> to allow a new player on",
+      "name": "Whitelist"
+    },
+
+    {
+      "key": "allow-flight",
+      "type": "boolean",
+      "default": "false",
+      "description": "Allow the use of flight and speed mods",
+      "name": "Allow Flight/Speed hacks"
+    },
+
+    {
+      "key": "allow-nether",
+      "type": "boolean",
+      "default": "true",
+      "description": "Allows players to travel to the Nether",
+      "name": "Allow Nether"
+    },
+    {
+      "key": "spawn-protection",
+      "type": "integer",
+      "default": "16",
+      "description": "Determines the radius of the spawn protection.",
+      "min": "0",
+      "max": "999",
+      "name": "Spawn Protection"
+    },
+
+    {
+      "key": "level-seed",
+      "type": "string",
+      "default": "",
+      "description": "The seed determines the way your world looks",
+      "name": "World Seed"
+    },
+
+    {
+      "key": "generator-settings",
+      "type": "string",
+      "default": "",
+      "description": "The settings used to customize Superflat world generation.",
+      "name": "Generator Settings"
+    },
+
+    {
+      "key": "gamemode",
+      "type": "array",
+      "values": "0|Survival,1|Creative,2|Adventure",
+      "default": "0",
+      "description": "Game mode for the server; Survival or Creative",
+      "name": "Game Mode"
+    },
+
+    {
+      "key": "force-gamemode",
+      "type": "boolean",
+      "default": "false",
+      "description": "If set to true, players will always login in the default gamemode, not what they last logged out as",
+      "name": "Force game mode"
+    },
+
+    {
+      "key": "difficulty",
+      "type": "array",
+      "values": "0|Peaceful,1|Easy,2|Normal,3|Hard",
+      "default": "2",
+      "description": "Difficulty of game, damage and hunger effects",
+      "name": "Difficulty"
+    },
+
+    {
+      "key": "op-permission-level",
+      "type": "integer",
+      "default": "4",
+      "description": "What commands OP users can use, see http://www.minecraftwiki.net/wiki/Server.properties",
+      "min": "1",
+      "max": "4",
+      "name": "OP Permission Level"
+    },
+
+    {
+      "key": "hardcore",
+      "type": "boolean",
+      "default": "false",
+      "description": "If set to true, players will be permanently banned if they die",
+      "name": "Hardcore mode"
+    },
+
+    {
+      "key": "motd",
+      "type": "string",
+      "default": "A RCAAS powered server",
+      "description": "Message that is displayed in the client server browser",
+      "name": "Server Message"
+    },
+
+    {
+      "key": "generate-structures",
+      "type": "boolean",
+      "default": "true",
+      "description": "Whether to generate structures such as villages",
+      "name": "Generate Structures"
+    },
+
+    {
+      "key": "enable-command-block",
+      "type": "boolean",
+      "default": "false",
+      "description": "Enables command blocks in game",
+      "name": "Enable Command Blocks"
+    },
+
+    {
+      "key": "level-type",
+      "type": "array",
+      "values": "minecraft:normal,minecraft:flat,minecraft:large_biomes,minecraft:amplified",
+      "default": "minecraft:normal",
+      "description": "Type of world generation",
+      "name": "Level Type"
+    },
+
+    {
+      "key": "max-build-height",
+      "type": "array",
+      "values": "128|128,256|256",
+      "default": "256",
+      "description": "Maximum height you can build to.",
+      "name": "Build Height"
+    },
+
+    {
+      "key": "enable-query",
+      "type": "boolean",
+      "default": "true",
+      "description": "Allow querying of server info",
+      "name": "Enable Querying"
+    },
+
+    {
+      "key": "snooper-enabled",
+      "type": "boolean",
+      "default": "true",
+      "description": "Sets whether the server sends snoop data regularly to snoop.minecraft.net",
+      "name": "Enable Official data sharing"
+    },
+
+    {
+      "key": "texture-pack",
+      "type": "string",
+      "default": "",
+      "description": "URL to texture pack to offer to clients",
+      "name": "Texture Pack URL"
+    },
+    {
+      "key": "server-port",
+      "type": "integer",
+      "default": "25565",
+      "description": "Changes the port the server is hosting (listening) on. This port must be forwarded if the server is hosted in a network using NAT (if the player has a home router/firewall).",
+      "name": "Server TCP port"
+    }
+  ]
+}
