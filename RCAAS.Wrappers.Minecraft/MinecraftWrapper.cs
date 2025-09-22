@@ -389,7 +389,7 @@ namespace RCAAS.Wrappers.Minecraft
                 if (mst != MinecraftSettings.ServerType)
                 {
                     GetLogEvent(NLog.LogLevel.Error, "Trying to update to a version of a diffrent MinecraftServerType. Requested => " + versionfileid, Config.Id);
-                    throw new InvalidDataException("Invalid AppVersionFile requested, missmatch of MinecraftServerType, AppVersionFile #" + versionfileid + " is not type " + MinecraftSettings.ServerType.ToString());
+                    throw new InvalidDataException("Invalid AppVersionFile requested, mismatch of MinecraftServerType, AppVersionFile #" + versionfileid + " is not type " + MinecraftSettings.ServerType.ToString());
                 }
                 else
                 {
