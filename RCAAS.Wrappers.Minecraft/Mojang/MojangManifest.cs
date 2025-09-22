@@ -93,7 +93,7 @@ namespace RCAAS.Core.Wrappers.Minecraft.Mojang
     public class MojangAsset
     {
         public string id { get; set; }
-        public string sh1 { get; set; }
+        public string sha1 { get; set; }
         public int size { get; set; }
         public string url { get; set; }
         public int totalSize { get; set; }
