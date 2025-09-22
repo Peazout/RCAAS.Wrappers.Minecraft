@@ -409,7 +409,7 @@ namespace RCAAS.Wrappers.Minecraft
         {
             var restart = false;
             // What version are we running?
-            if (Config.ExternalId == version.Id) { MyLog.Info("Server is allready running version " + version.VersionName); return; }
+            if (Config.ExternalId == version.Id) { MyLog.Info("Server is already running version " + version.VersionName); return; }
             else
             {
                 // Are we running?
