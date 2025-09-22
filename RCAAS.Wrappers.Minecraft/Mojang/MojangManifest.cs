@@ -27,7 +27,7 @@ namespace RCAAS.Core.Wrappers.Minecraft.Mojang
             return versions.Find(v => v.id == Latest.release);
         }
         /// <summary>
-        /// Get the latest weekly snaposhot
+        /// Get the latest weekly snapshot
         /// </summary>
         /// <returns></returns>
         public MojangVersion GetLatestSnapshot()
