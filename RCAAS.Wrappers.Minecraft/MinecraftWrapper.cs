@@ -332,7 +332,7 @@ namespace RCAAS.Wrappers.Minecraft
                 var version = await MinecraftPluginHelperExt.GetMinecraftVersionAsync(args.ServerType);
 
                 if (version != null) item.ExternalId = version.Id;
-                else throw new ArgumentException("Could not load a Mincraftversion file for the server, db return null.");
+                else throw new ArgumentException("Could not load a Minecraft version file for the server, db returned null.");
 
             }
 
