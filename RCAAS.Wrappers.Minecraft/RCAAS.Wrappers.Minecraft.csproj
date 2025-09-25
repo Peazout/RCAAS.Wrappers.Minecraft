@@ -4,6 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Description>Minecraft</Description>
+    <Company>Dubratz.net</Company>
+    <Authors>RCAAS</Authors>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <PackageReleaseNotes>First version.</PackageReleaseNotes>
+    <Product>RCAAS.Wrappers.Minecraft</Product>
+    <Copyright>Dubratz.net</Copyright>
+    <Platforms>AnyCPU;x64</Platforms>
+    <Version>1.0.0.99</Version>
   </PropertyGroup>
 
   <ItemGroup>
