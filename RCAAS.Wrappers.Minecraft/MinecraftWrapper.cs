@@ -3,7 +3,8 @@ using RCAAS.Core.Data;
 using RCAAS.Core.Helpers;
 using RCAAS.Core.Interfaces;
 using RCAAS.Core.Util;
-using RCAAS.Core.Wrappers.Minecraft.Mojang;
+using RCAAS.Core.Wrappers;
+using RCAAS.Wrappers.Minecraft.Mojang;
 using System.Diagnostics;
 using System.Text;
 

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
-using RCAAS.Core.Wrappers.Minecraft.Mojang;
-using RCAAS.Wrappers;
+using RCAAS.Wrappers.Minecraft.Mojang;
+using RCAAS.Core.Wrappers;
 
 
 namespace RCAAS.Wrappers.Minecraft
